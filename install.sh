@@ -25,7 +25,7 @@ sudo apt-get install texlive-full
 sudo apt-get install pandoc
 sudo apt-get install vlc
 sudo apt-get install network-manager-vpnc network-manager-vpnc-gnome
-sudo apt-get install imagemagick gthumb
+sudo apt-get install imagemagick gthumb inkscape
 
 # R and rstudio
 sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
