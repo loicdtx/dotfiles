@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo add-apt-repository ppa:ubuntugis/ubuntugis-unstable
 
@@ -6,6 +8,7 @@ sudo apt-get update
 
 sudo apt-get install guake
 sudo apt-get install git subversion
+sudo apt-get install htop espeak
 sudo apt-get install zsh
 sudo apt-get install fonts-powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -39,6 +42,12 @@ wget https://download1.rstudio.org/rstudio-0.99.903-amd64.deb
 sudo gdebi -n rstudio-0.99.903-amd64.deb
 rm rstudio-0.99.903-amd64.deb
 
-# Pyhton
+# Python
 sudo apt-get install python-pip python-scipy python-numpy python-virtualenv
 sudo pip install virtualenvwrapper
+
+# Dropbox
+sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+sudo add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -sc) main"
+sudo apt-get update
+sudo apt-get install dropbox
