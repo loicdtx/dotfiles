@@ -52,3 +52,11 @@ sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
 sudo add-apt-repository "deb http://linux.dropbox.com/ubuntu $(lsb_release -sc) main"
 sudo apt-get update
 sudo apt-get install dropbox
+
+
+## Postgis
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" >> /etc/apt/sources.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install postgresql-9.3 pgadmin3 postgresql-contrib
+sudo apt-get install postgresql-9.5-postgis-2.2 pgadmin3 postgresql-contrib
