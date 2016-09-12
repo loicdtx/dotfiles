@@ -60,3 +60,10 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-
 sudo apt-get update
 sudo apt-get install postgresql-9.5 pgadmin3 postgresql-contrib
 sudo apt-get install postgresql-9.5-postgis-2.2 pgadmin3 postgis
+
+# Flatabulous theme
+wget http://archive.getdeb.net/ubuntu/pool/apps/u/ubuntu-tweak/ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb && sudo dpkg -i ubuntu-tweak_0.8.7-1~getdeb2~xenial_all.deb
+wget https://github.com/anmoljagetia/Flatabulous/releases/download/16.04.1/Flatabulous-Theme.deb && sudo dpkg -i Flatabulous-Theme.deb
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install ultra-flat-icons
