@@ -18,7 +18,7 @@ sudo apt-get install tmux autojump
 sudo apt-get install sublime-text-installer
 wget --no-check-certificate https://sublime.wbond.net/Package%20Control.sublime-package -P ~/.config/sublime-text-3/Installed\ Packages/
 # Install "Git​Gutter", "La​Te​XTools", "Sublime​REPL", "Monokai Extended", "Git", "gitgutter", "side bar", "table editor",\
-# "virtualenv", "Evernote", "boxy theme"
+# "virtualenv", "Evernote", "boxy theme", "Dockerfile Syntax Highlighting"
 # The line below doesn't work well
 # echo '{"installed_packages":["Git​Gutter", "La​Te​XTools", "Sublime​REPL", "Monokai Extended", "Git"]}' > ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
 
