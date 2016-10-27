@@ -24,7 +24,7 @@ wget --no-check-certificate https://sublime.wbond.net/Package%20Control.sublime-
 
 
 sudo apt-get install chromium-browser
-sudo add-apt install qgis libgdal-dev 
+sudo apt-get install qgis libgdal-dev 
 sudo apt-get install texlive-full
 sudo apt-get install pandoc
 sudo apt-get install vlc
