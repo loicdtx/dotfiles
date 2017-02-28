@@ -17,6 +17,8 @@ sudo apt-get install tmux autojump
 # Install and setup sublime
 sudo apt-get install sublime-text-installer
 wget --no-check-certificate https://sublime.wbond.net/Package%20Control.sublime-package -P ~/.config/sublime-text-3/Installed\ Packages/
+# Add dictionaries
+git clone https://github.com/titoBouzout/Dictionaries.git ~/.config/sublime-text-3/Packages/
 # Install "Git​Gutter", "La​Te​XTools", "Sublime​REPL", "Monokai Extended", "Git", "gitgutter", "side bar", "table editor",\
 # "virtualenv", "Evernote", "boxy theme", "Dockerfile Syntax Highlighting"
 # The line below doesn't work well
