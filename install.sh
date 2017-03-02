@@ -26,7 +26,7 @@ git clone https://github.com/titoBouzout/Dictionaries.git ~/.config/sublime-text
 
 
 sudo apt-get install -y chromium-browser
-sudo apt-get install -y qgis libgdal-dev 
+sudo apt-get install -y qgis libgdal-dev libgeos++-dev 
 sudo apt-get install -y texlive-full
 sudo apt-get install -y pandoc
 sudo apt-get install -y vlc
