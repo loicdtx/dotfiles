@@ -49,6 +49,7 @@ rm rstudio-0.99.903-amd64.deb
 # Python
 sudo apt-get install -y python-pip python-scipy python-numpy python-virtualenv
 sudo pip install virtualenvwrapper
+echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.zshrc
 
 # Dropbox
 sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
