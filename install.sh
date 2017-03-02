@@ -74,4 +74,9 @@ sudo apt-get install -y ultra-flat-icons
 # For google integration
 sudo apt-get install -y gnome-control-center gnome-online-accounts
 
+# Git gui
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+rm gitkraken-amd64.deb
+
 sudo apt-get -fy install
