@@ -71,4 +71,7 @@ sudo add-apt-repository -y ppa:noobslab/icons
 sudo apt-get update
 sudo apt-get install -y ultra-flat-icons
 
+# For google integration
+sudo apt-get install -y gnome-control-center gnome-online-accounts
+
 sudo apt-get -fy install
