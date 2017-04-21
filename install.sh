@@ -6,8 +6,9 @@ sudo add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
 
 sudo apt-get update
 
+sudo apt-get install -y python3
 sudo apt-get install -y guake
-sudo apt-get install -y git subversion
+sudo apt-get install -y git subversion curl
 sudo apt-get install -y htop espeak
 sudo apt-get install -y zsh
 sudo apt-get install -y fonts-powerline
@@ -79,5 +80,15 @@ sudo apt-get install -y gnome-control-center gnome-online-accounts
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 rm gitkraken-amd64.deb
+
+# Vim stuff
+sudo apt-get -y install build-essential cmake
+sudo apt-get -y install python-dev python3-dev
+sudo apt-get -y install vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+wget https://raw.githubusercontent.com/loicdtx/dotfiles/master/.vimrc -P ~/
+vim +PluginInstall +qall
+~/.vim/bundle/YouCompleteMe/./install.py
 
 sudo apt-get -fy install
