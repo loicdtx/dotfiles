@@ -38,6 +38,16 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix
 
+" this enables "visual" wrapping
+set wrap
+
+" this turns off physical line wrapping (ie: automatic insertion of newlines)
+set textwidth=0
+set wrapmargin=0
+
+" Add line at 80 characters 
+set colorcolumn=80
+
 set encoding=utf-8
 
 "split navigations
