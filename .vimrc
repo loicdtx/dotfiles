@@ -33,15 +33,17 @@ au BufNewFile,BufRead *.py
     \ set tabstop=4 |
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
-    \ set textwidth=79 |
     \ set expandtab |
     \ set autoindent |
     \ set fileformat=unix
 
-" this enables "visual" wrapping
-set wrap
+" this enables visual wrapping
+" set wrap
 
 " this turns off physical line wrapping (ie: automatic insertion of newlines)
+set wrap
+set linebreak
+set nolist  " list disables linebreak
 set textwidth=0
 set wrapmargin=0
 
