@@ -5,7 +5,7 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
@@ -20,6 +20,8 @@ Plugin 'tpope/vim-vividchalk'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'vim-pandoc/vim-pandoc-syntax'
+Plugin 'quarto-dev/quarto-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
